@@ -5,6 +5,7 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  background-color: whitesmoke;
 }
 
 /* Layout */
@@ -13,15 +14,15 @@ body {
   width: 375px;
   margin: 0 auto;
   background: #fff;
-  border: solid 1px red;
 }
 
 /* Header */
 
 .header-images {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  border-bottom: solid 1px #c6c6c6;
   height: 70px;
 }
 
@@ -30,12 +31,51 @@ body {
 }
 
 .your-user-avator-img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
 }
 
 .oldagram-logo,
 .your-user-avator-img {
-  margin: 16px;
+  margin: 10px;
+}
+
+/* Post Content */
+
+.user-infos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image-post {
+  width: 375px;
+  height: 375px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+}
+
+.post-icons {
+  width: 25px;
+  height: 25px;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+span {
+  font-weight: 700;
+}
+
+.post-content {
+  margin-left: 10px;
+  margin-top: 10px;
+  line-height: 30px;
 }
