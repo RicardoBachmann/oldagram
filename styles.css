@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Layout */
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  background: #fff;
+  border: solid 1px red;
+}
+
+/* Header */
+
+.header-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+}
+
+.oldagram-logo {
+  width: 120px;
+}
+
+.your-user-avator-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.oldagram-logo,
+.your-user-avator-img {
+  margin: 16px;
+}
