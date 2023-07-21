@@ -26,7 +26,7 @@
     </header>
 
     <main>
-      <section class="post-section">
+      <section class="post-content">
         <div class="container">
           <div class="user-infos">
             <img
@@ -34,26 +34,35 @@
               src="images/avatar-vangogh.jpg"
               alt="User avatar"
             />
-
-            <p><span>Vincent van Gogh</span><br />Zundert, Netherlands</p>
-          </div>
-          <div>
-            <img
-              class="image-post"
-              src="images/post-vangogh.jpg"
-              alt="Painted portrait of the user"
-            />
-          </div>
-          <div class="post-content">
-            <div class="icons">
-              <img class="post-icons" src="images/icon-heart.png" alt="" />
-              <img class="post-icons" src="images/icon-comment.png" alt="" />
-              <img class="post-icons" src="images/icon-dm.png" alt="" />
+            <div class="feed">
+              <p id="name" class=""></p>
+              <p id="location" class=""></p>
             </div>
-            <p>21,492 likes</p>
-            <p><span>vincey1854</span> just took a few mushrooms lol</p>
           </div>
+
+          <img
+            class="image-post"
+            src="images/post-vangogh.jpg"
+            alt="Painted portrait of the user"
+          />
         </div>
+      </section>
+
+      <section class="post-actions">
+        <div class="icons">
+          <img class="post-icons" src="images/icon-heart.png" alt="" />
+          <img class="post-icons" src="images/icon-comment.png" alt="" />
+          <img class="post-icons" src="images/icon-dm.png" alt="" />
+        </div>
+
+        <div class="post-likes">
+          <p id="likes"></p>
+        </div>
+      </section>
+
+      <section class="post-comments">
+        <p id="username" class=""></p>
+        <p id="comment"></p>
       </section>
     </main>
 
