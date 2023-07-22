@@ -13,6 +13,7 @@
     />
     <title>Oldagram</title>
   </head>
+
   <body>
     <header>
       <div class="container header-images">
@@ -25,7 +26,7 @@
       </div>
     </header>
 
-    <main>
+    <main id="main-el">
       <section class="post-content">
         <div class="container">
           <div class="user-infos">
@@ -35,34 +36,22 @@
               alt="User avatar"
             />
             <div class="feed">
-              <p id="name" class=""></p>
-              <p id="location" class=""></p>
+              <p class="user-name"></p>
+              <p class="location"></p>
             </div>
           </div>
-
-          <img
-            class="image-post"
-            src="images/post-vangogh.jpg"
-            alt="Painted portrait of the user"
-          />
-        </div>
-      </section>
-
-      <section class="post-actions">
-        <div class="icons">
-          <img class="post-icons" src="images/icon-heart.png" alt="" />
-          <img class="post-icons" src="images/icon-comment.png" alt="" />
-          <img class="post-icons" src="images/icon-dm.png" alt="" />
         </div>
 
-        <div class="post-likes">
-          <p id="likes"></p>
+        <div>
+          <img class="post-image" alt="Painted portrait of the user" />
         </div>
-      </section>
 
-      <section class="post-comments">
-        <p id="username" class=""></p>
-        <p id="comment"></p>
+        <section class="post-actions">
+          <div class="icons"></div>
+
+          <p class="likes-el"><span class="likes-count"></span></p>
+          <p class="comments-el"><span class="likes-count"></span></p>
+        </section>
       </section>
     </main>
 

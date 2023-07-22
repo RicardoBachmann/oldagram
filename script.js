@@ -28,3 +28,13 @@ const posts = [
     likes: "15,137",
   },
 ];
+
+const mainEl = document.getElementById("main-el");
+
+function renderPostSections() {
+  for (let i = 0; i < posts.length; i++) {
+    console.log(posts[i]);
+  }
+}
+
+renderPostSections();
