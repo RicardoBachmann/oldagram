@@ -16,6 +16,10 @@ body {
   background: #fff;
 }
 
+.post-post-content {
+  margin-bottom: 25px;
+}
+
 /* Header */
 
 .header-images {
@@ -30,10 +34,9 @@ body {
   width: 120px;
 }
 
-.your-user-avator-img {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
+.oldagram-logo,
+.your-avatar-image {
+  margin: 16px;
 }
 
 .oldagram-logo,
@@ -41,17 +44,34 @@ body {
   margin: 10px;
 }
 
+.your-avatar-image {
+  border: rgb(236, 236, 236) solid 1px;
+}
+
+/* Post images */
+
+.user-avatar,
+.your-avatar-image {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+}
+
+.user-avatar {
+  margin: 10px 7px 11px 10px;
+}
+
+.post-image {
+  width: 100%;
+  margin: 0;
+}
+
 /* Post Content */
 
-.user-content {
+.user-informations {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.image-post {
-  width: 375px;
-  height: 375px;
 }
 
 .icons {
