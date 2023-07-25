@@ -13,45 +13,37 @@
     />
     <title>Oldagram</title>
   </head>
+
   <body>
     <header>
       <div class="container header-images">
         <img class="oldagram-logo" src="images/logo.png" alt="Oldergram logo" />
         <img
-          class="your-user-avator-img"
+          class="your-avatar-image"
           src="images/avatar-vangogh.jpg"
           alt="Your user avatar"
         />
       </div>
     </header>
 
-    <main>
-      <section class="post-section">
+    <main id="main-el">
+      <section class="post-content">
         <div class="container">
           <div class="user-infos">
-            <img
-              class="your-user-avator-img"
-              src="images/avatar-vangogh.jpg"
-              alt="User avatar"
-            />
-
-            <p><span>Vincent van Gogh</span><br />Zundert, Netherlands</p>
+            <img class="user-avatar" alt="User avatar" />
+            <div>
+              <h2 class="user-name"></h2>
+              <p class="location"></p>
+            </div>
           </div>
           <div>
-            <img
-              class="image-post"
-              src="images/post-vangogh.jpg"
-              alt="Painted portrait of the user"
-            />
+            <img class="post-image" alt="Painted portrait of the user" />
           </div>
-          <div class="post-content">
+          <div class="post-actions">
             <div class="icons">
-              <img class="post-icons" src="images/icon-heart.png" alt="" />
-              <img class="post-icons" src="images/icon-comment.png" alt="" />
-              <img class="post-icons" src="images/icon-dm.png" alt="" />
+              <p class="likes-el"><span class="likes-count"></span></p>
+              <p class="comments-el"><span class="likes-count"></span></p>
             </div>
-            <p>21,492 likes</p>
-            <p><span>vincey1854</span> just took a few mushrooms lol</p>
           </div>
         </div>
       </section>

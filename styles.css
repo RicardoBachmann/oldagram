@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -14,6 +15,10 @@ body {
   width: 375px;
   margin: 0 auto;
   background: #fff;
+}
+
+.post-content {
+  margin-bottom: 25px;
 }
 
 /* Header */
@@ -30,40 +35,79 @@ body {
   width: 120px;
 }
 
-.your-user-avator-img {
-  width: 35px;
-  height: 35px;
+.oldagram-logo,
+.your-avatar-image {
+  margin: 16px;
+}
+
+.your-avatar-image {
+  border: rgb(236, 236, 236) solid 1px;
+}
+
+/* Post images */
+
+.user-avatar,
+.your-avatar-image {
+  height: 34px;
+  width: 34px;
   border-radius: 50%;
 }
 
-.oldagram-logo,
-.your-user-avator-img {
-  margin: 10px;
+.user-avatar {
+  margin: 10px 7px 11px 10px;
+}
+
+.post-image {
+  width: 375px;
 }
 
 /* Post Content */
 
 .user-infos {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-content: center;
 }
 
-.image-post {
-  width: 375px;
-  height: 375px;
+.user-name {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.location {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.post-actions {
+  border: solid 1px red;
+}
+
+/* Post icons */
+
+.btn {
+  border: none;
+  background: transparent;
+  padding: 0px;
 }
 
 .icons {
+  width: 90px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+}
 
-  gap: 10px;
+.icon-image {
+  width: 23px;
+}
+
+.icon-image:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 .post-icons {
   width: 25px;
-  height: 25px;
 }
 
 h1 {
@@ -72,10 +116,4 @@ h1 {
 
 span {
   font-weight: 700;
-}
-
-.post-content {
-  margin-left: 10px;
-  margin-top: 10px;
-  line-height: 30px;
 }
